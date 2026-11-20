@@ -1,0 +1,386 @@
+[
+  {
+    "id": "qwen2.5-f4-summary",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f4",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen2.5-f4-summary_only",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f4",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen2.5-f4-full",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f4",
+    "kind": "full"
+  },
+  {
+    "id": "qwen2.5-f4-pinned",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f4",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen2.5-f0-summary",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f0",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen2.5-f0-pinned",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f0",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen2.5-f0-full",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f0",
+    "kind": "full"
+  },
+  {
+    "id": "qwen2.5-f0-summary_only",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f0",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen2.5-f1-summary",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f1",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen2.5-f1-full",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f1",
+    "kind": "full"
+  },
+  {
+    "id": "qwen2.5-f1-pinned",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f1",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen2.5-f1-summary_only",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f1",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen2.5-f5-summary",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f5",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen2.5-f5-pinned",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f5",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen2.5-f5-summary_only",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f5",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen2.5-f5-full",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f5",
+    "kind": "full"
+  },
+  {
+    "id": "qwen2.5-f3-summary",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f3",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen2.5-f3-pinned",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f3",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen2.5-f3-full",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f3",
+    "kind": "full"
+  },
+  {
+    "id": "qwen2.5-f3-summary_only",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f3",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen2.5-f7-summary",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f7",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen2.5-f7-full",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f7",
+    "kind": "full"
+  },
+  {
+    "id": "qwen2.5-f7-summary_only",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f7",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen2.5-f7-pinned",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f7",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen2.5-f2-summary",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f2",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen2.5-f2-full",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f2",
+    "kind": "full"
+  },
+  {
+    "id": "qwen2.5-f2-pinned",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f2",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen2.5-f2-summary_only",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f2",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen2.5-f6-summary",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f6",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen2.5-f6-full",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f6",
+    "kind": "full"
+  },
+  {
+    "id": "qwen2.5-f6-pinned",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f6",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen2.5-f6-summary_only",
+    "model": "qwen2.5:7b",
+    "fixture_id": "f6",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen3-f6-summary",
+    "model": "qwen3:8b",
+    "fixture_id": "f6",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen3-f6-pinned",
+    "model": "qwen3:8b",
+    "fixture_id": "f6",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen3-f6-summary_only",
+    "model": "qwen3:8b",
+    "fixture_id": "f6",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen3-f6-full",
+    "model": "qwen3:8b",
+    "fixture_id": "f6",
+    "kind": "full"
+  },
+  {
+    "id": "qwen3-f1-summary",
+    "model": "qwen3:8b",
+    "fixture_id": "f1",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen3-f1-summary_only",
+    "model": "qwen3:8b",
+    "fixture_id": "f1",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen3-f1-full",
+    "model": "qwen3:8b",
+    "fixture_id": "f1",
+    "kind": "full"
+  },
+  {
+    "id": "qwen3-f1-pinned",
+    "model": "qwen3:8b",
+    "fixture_id": "f1",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen3-f7-summary",
+    "model": "qwen3:8b",
+    "fixture_id": "f7",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen3-f7-summary_only",
+    "model": "qwen3:8b",
+    "fixture_id": "f7",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen3-f7-pinned",
+    "model": "qwen3:8b",
+    "fixture_id": "f7",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen3-f7-full",
+    "model": "qwen3:8b",
+    "fixture_id": "f7",
+    "kind": "full"
+  },
+  {
+    "id": "qwen3-f0-summary",
+    "model": "qwen3:8b",
+    "fixture_id": "f0",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen3-f0-summary_only",
+    "model": "qwen3:8b",
+    "fixture_id": "f0",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen3-f0-pinned",
+    "model": "qwen3:8b",
+    "fixture_id": "f0",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen3-f0-full",
+    "model": "qwen3:8b",
+    "fixture_id": "f0",
+    "kind": "full"
+  },
+  {
+    "id": "qwen3-f2-summary",
+    "model": "qwen3:8b",
+    "fixture_id": "f2",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen3-f2-full",
+    "model": "qwen3:8b",
+    "fixture_id": "f2",
+    "kind": "full"
+  },
+  {
+    "id": "qwen3-f2-pinned",
+    "model": "qwen3:8b",
+    "fixture_id": "f2",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen3-f2-summary_only",
+    "model": "qwen3:8b",
+    "fixture_id": "f2",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen3-f5-summary",
+    "model": "qwen3:8b",
+    "fixture_id": "f5",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen3-f5-full",
+    "model": "qwen3:8b",
+    "fixture_id": "f5",
+    "kind": "full"
+  },
+  {
+    "id": "qwen3-f5-summary_only",
+    "model": "qwen3:8b",
+    "fixture_id": "f5",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen3-f5-pinned",
+    "model": "qwen3:8b",
+    "fixture_id": "f5",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen3-f3-summary",
+    "model": "qwen3:8b",
+    "fixture_id": "f3",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen3-f3-pinned",
+    "model": "qwen3:8b",
+    "fixture_id": "f3",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen3-f3-full",
+    "model": "qwen3:8b",
+    "fixture_id": "f3",
+    "kind": "full"
+  },
+  {
+    "id": "qwen3-f3-summary_only",
+    "model": "qwen3:8b",
+    "fixture_id": "f3",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen3-f4-summary",
+    "model": "qwen3:8b",
+    "fixture_id": "f4",
+    "kind": "summary"
+  },
+  {
+    "id": "qwen3-f4-summary_only",
+    "model": "qwen3:8b",
+    "fixture_id": "f4",
+    "kind": "summary_only"
+  },
+  {
+    "id": "qwen3-f4-pinned",
+    "model": "qwen3:8b",
+    "fixture_id": "f4",
+    "kind": "pinned"
+  },
+  {
+    "id": "qwen3-f4-full",
+    "model": "qwen3:8b",
+    "fixture_id": "f4",
+    "kind": "full"
+  }
+]

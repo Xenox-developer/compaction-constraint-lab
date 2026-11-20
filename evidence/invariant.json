@@ -1,0 +1,184 @@
+{
+  "request_id": "compaction-constraint-lab-20261120-v1",
+  "study_id": "study-e9e416ffd1694b27b849de4814f877a3",
+  "execution": {
+    "study_id": "study-e9e416ffd1694b27b849de4814f877a3",
+    "state": "completed",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "study_id": "study-e9e416ffd1694b27b849de4814f877a3",
+        "attempt_id": "attempt-d3a76ee958458354b7741d12b90861f6",
+        "definition_digest": "a2ae2f3ecd6505b76e930b6ad1ff6dfc6fcc1e308ffc4c0b1dce7a8a67cc218c",
+        "baseline_digest": "7948edde4a30c447372181d907a1b1f46bba49759d3d09b5169118bd06001ae0",
+        "result_digest": "4b998748ab049001acf925647c5dca72bc5d48bb200b33bf5c824593f2513c7e",
+        "state": "succeeded",
+        "passed": true,
+        "evaluation": {
+          "status": "completed",
+          "reason": null,
+          "reused_validation": true,
+          "validation_receipt": "docker-volume://invariant-state-v2/workspaces/d1f133bcb0b9db55ca50e48a/experiments/attempts/attempt-d3a76ee958458354b7741d12b90861f6/validations/3bf8a52179616f12ff8a525fc26e28acb651161d459dfde470e04a684714c448/receipt.json",
+          "contract_version": "b377433d8b23ec6e926000b7e0738dca5e3a7b16a010f1ad9c0149d44ed35cb8",
+          "command": "python3 -B tests/run_checks.py",
+          "test_exit_code": 0,
+          "checks": {
+            "tests": 8,
+            "failures": 0,
+            "errors": 0
+          },
+          "fixed_test_count": 7,
+          "evidence_path": "docker-volume://invariant-state-v2/workspaces/d1f133bcb0b9db55ca50e48a/experiments/attempts/attempt-d3a76ee958458354b7741d12b90861f6/evaluation"
+        },
+        "resources": {
+          "expected_digest": "91d37c5e6396c47845558ece35416bfd075a708758985db89ade158ccb50a2d8",
+          "observed_digest": "91d37c5e6396c47845558ece35416bfd075a708758985db89ade158ccb50a2d8"
+        },
+        "inference_usage": {
+          "complete": true,
+          "final": {
+            "cached_input_tokens": 91776,
+            "input_tokens": 113357,
+            "output_tokens": 786,
+            "reasoning_output_tokens": 48,
+            "total_tokens": 114143
+          },
+          "path": "docker-volume://invariant-state-v2/workspaces/d1f133bcb0b9db55ca50e48a/experiments/attempts/attempt-d3a76ee958458354b7741d12b90861f6/runner.usage.jsonl",
+          "problems": [],
+          "reconciled": true,
+          "response_count": 6
+        },
+        "execution_commands": {
+          "provenance": "executor command-completion events; not worker assertions",
+          "commands": [
+            {
+              "command": "/bin/bash -lc 'cat evaluation.py; cat tests/run_checks.py; cat fixtures.json'",
+              "cwd": "/workspace",
+              "status": "completed",
+              "exit_code": 0
+            },
+            {
+              "command": "/bin/bash -lc 'cat audit.py | head -100'",
+              "cwd": "/workspace",
+              "status": "completed",
+              "exit_code": 0
+            }
+          ],
+          "omitted_commands": 0
+        },
+        "receipt_digest": "b7a05381fc2be22dbf4b2e05011957693c1cbebdfb4c5871c8b9405793f0a7ee"
+      }
+    ],
+    "summary": {
+      "scheduled": 1,
+      "runner_successes": 1,
+      "failed": 0,
+      "cancelled": 0,
+      "pending": 0,
+      "evaluated": 1,
+      "missing_evaluations": 0,
+      "quality_passes": 1,
+      "quality_failures": 0,
+      "quality_judged": 1,
+      "missing_quality": 0,
+      "quality_pass_rate_over_scheduled": 1.0
+    },
+    "selection": {
+      "attempt_id": null,
+      "revision": 0
+    },
+    "trials": [
+      {
+        "attempt_id": "attempt-d3a76ee958458354b7741d12b90861f6",
+        "variant_id": "medium",
+        "state": "succeeded",
+        "passed": true,
+        "duration_seconds": 38.29989409446716,
+        "reason": "COMPLETED"
+      }
+    ],
+    "trials_omitted": 0,
+    "usage": {
+      "model_calls": 1,
+      "input_tokens": 113357,
+      "cached_input_tokens": 91776,
+      "output_tokens": 786,
+      "reasoning_output_tokens": 48,
+      "total_tokens": 114143,
+      "complete": true
+    }
+  },
+  "decision": {
+    "state": "completed",
+    "decision": {
+      "approved": true,
+      "reason": "The patch implements the specified scoring semantics and strict output structure using only the standard library. The coordinator-verified invariant_validate run passed all eight fixed checks.",
+      "review_digest": "5b278a452672a048cce60248c812ad6d5bb79c5403757a1b8139d4ccdd626f6d"
+    },
+    "model": "gpt-6.1-terra",
+    "effort": "medium",
+    "usage": {
+      "total": {
+        "totalTokens": 5748,
+        "inputTokens": 5642,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 106,
+        "reasoningOutputTokens": 56
+      },
+      "last": {
+        "totalTokens": 5748,
+        "inputTokens": 5642,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 106,
+        "reasoningOutputTokens": 56
+      },
+      "modelContextWindow": 475000
+    },
+    "inference_usage": {
+      "response_count": 1,
+      "complete": true,
+      "reconciled": true,
+      "problems": [],
+      "path": "docker-volume://invariant-state-v2/workspaces/d1f133bcb0b9db55ca50e48a/tasks/1902200e150e528cc8552a282c358f4648b90b01690ce980937327cacb12d5f3-reviews/5b278a452672a048cce60248c812ad6d5bb79c5403757a1b8139d4ccdd626f6d/usage.jsonl",
+      "final": {
+        "input_tokens": 5642,
+        "cached_input_tokens": 0,
+        "output_tokens": 106,
+        "reasoning_output_tokens": 56,
+        "total_tokens": 5748
+      }
+    }
+  },
+  "application": {
+    "plan_id": "plan-903eb12a0d0542788b7e53ed34ce5fd2",
+    "attempt_id": "attempt-d3a76ee958458354b7741d12b90861f6",
+    "applied": true,
+    "verification": {
+      "schema_version": 1,
+      "verified": true,
+      "verified_at": 1795171558.9947383,
+      "plan_digest": "5b278a452672a048cce60248c812ad6d5bb79c5403757a1b8139d4ccdd626f6d",
+      "result_digest": "4b998748ab049001acf925647c5dca72bc5d48bb200b33bf5c824593f2513c7e",
+      "changed_paths": 1,
+      "written_entries_digest": "3dd094ae2292b7157bab00333d829adb3e28a8da6ca8b21f1cf4312aef0fc95a",
+      "protected_inputs": 7,
+      "protected_entries_digest": "26e1e8cd15be1d6a1774ea6078394d22a9eb0021a283b64c10201f5bec3a22a3"
+    },
+    "container_applied": true,
+    "host_delivery_state": "committed"
+  },
+  "usage": {
+    "model_calls": 2,
+    "input_tokens": 118999,
+    "cached_input_tokens": 91776,
+    "output_tokens": 892,
+    "reasoning_output_tokens": 104,
+    "total_tokens": 119891,
+    "complete": true
+  },
+  "completion_state": "applied",
+  "original_sha256": "478a03856e179c8855d15db3d42ac1b1a2ccc0f6f0281905635e0e1c1755fed7",
+  "preparation_recovery": "Initial Docker network exhaustion before task registration (NOT_FOUND); temporarily released one verified unreferenced bridge and restored equivalent configuration after completion. Same request ID; no uncertain model replay."
+}

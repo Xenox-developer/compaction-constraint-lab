@@ -1,0 +1,41 @@
+[
+  {
+    "id": "compaction-constraint-lab",
+    "status": "selected_feasible_now",
+    "claim": "One-shot summaries may change later permission decisions; compare same summary with original rule pinned.",
+    "source": "https://arxiv.org/abs/2608.22752",
+    "date": "2026-08-24",
+    "minimum_experiment": "8 histories,2 local models,3 memory conditions,64 calls",
+    "baseline": "full history; paired summary vs same summary+pinned rule",
+    "metrics": "exact/8,correct decisions/32,unsafe/24,false denials/8",
+    "data": "authored publishable histories",
+    "resources": "installed Ollama/current Codex, sequential, estimated10min",
+    "limitations": "one round/seed/prompt, hand-selected trusted rules, no actual overflow"
+  },
+  {
+    "id": "mcp-annotations",
+    "status": "feasible_deferred",
+    "claim": "Server hints do not replace trusted admission policy.",
+    "source": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+    "date": "2026-07-28",
+    "minimum_experiment": "mock descriptor changes vs pinned registry",
+    "baseline": "server hint vs trusted registry",
+    "metrics": "unsafe admissions and benign coverage",
+    "data": "authored descriptors",
+    "resources": "Python/current Codex",
+    "limitations": "deterministic counterexample may be tautological; no actual compromise"
+  },
+  {
+    "id": "sleeper-neuron-detection",
+    "status": "needs_resources",
+    "claim": "White-box neuron scanning detects planted backdoors.",
+    "source": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+    "date": "2026-11-10",
+    "minimum_experiment": "compatible white-box checkpoints",
+    "baseline": "unmodified vs implanted",
+    "metrics": "detection and false positives",
+    "data": "not acquired; Telegram discovery, primary not independently validated",
+    "resources": "new model download not authorized",
+    "limitations": "Ollama serving interface insufficient for reproduction"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-11-20T10:46:38.066415+00:00",
+  "planned": 64,
+  "sha256": {
+    "PROTOCOL.md": "e3a715a56a163b8f489b78b41073d01668136d1e5a0c91f310b86e43103edf0a",
+    "fixtures.json": "1cf7a087b53ca5a442676310c11d9d4006c7dcf056d84d5dab2aa5f1b2e0995d",
+    "schedule.json": "bed58ad53963f23c9b3a298c6ab95f33595b0020f940edac356022617dd6a6c1",
+    "request.py": "e32f1cbad17802bca83495047494f60bd1ec7535bb1db672762938a129b05296",
+    "evaluation.py": "a39d80e8806e7fbc96375bd770938fbe212d4c5fe43f72da423620393f76aa0b",
+    "tests/run_checks.py": "d2246e008a154484e72da995b1a90265a37d28729abccbd6d2c29ce0ba177266",
+    "run.py": "20166989f7994b551bfa50f2ed177eafe695f67da7314e7570b4283aecab0d8b",
+    "audit.py": "4edf0735b62d2cd6ccde3e8a67083dbc433466c3a4243f0cbbd6021b0fb6e76f",
+    "CANDIDATES.json": "16a77b46117ba9621ca2be742eb2a1779d0ce653e2c5c9cda90578a5a329b34a",
+    "SOURCES.json": "6158ea177f609ca8ff041730a55224dbc570f890a5ddccde736239e06b5971e3",
+    "evidence/models.json": "67d7bdb9e8649671412372366aa09424b88d16226b63d3529c0923db4bc5ddee",
+    "evidence/versions.json": "5c9bfc212f6ea33a8783c77d4fa46a62551e187760e2291d5f1c3f8b205e665f"
+  }
+}

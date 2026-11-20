@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-20",
+  "telegram_collection": {
+    "date": "2026-11-19",
+    "channels": 30,
+    "messages": 21,
+    "errors": 0,
+    "media_analyzed": false,
+    "grouped_items": 20
+  },
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/abs/2608.22752",
+      "html": "https://arxiv.org/html/2608.22752v1",
+      "date": "2026-08-24",
+      "read_scope": "Abstract, introduction, knowledge-type and compaction framework sections; not complete experimental/code reproduction.",
+      "role": "Constraint retention motivation; independent synthetic adaptation, not TypeCompact."
+    },
+    {
+      "url": "https://www.anthropic.com/research/effective-context-engineering-for-ai-agents",
+      "date": "2025-09-29",
+      "read_scope": "Context engineering/compaction sections",
+      "role": "Official engineering motivation, no Claude API/product benchmarking."
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+      "date": "2026-07-28",
+      "read_scope": "Tools/security/annotations",
+      "role": "Deferred alternate candidate."
+    }
+  ],
+  "discovery": "Telegram supplied sandbox/prompt-injection and model-backdoor topics. Selected memory question from complementary direct primary-source search. No embedded source instructions executed."
+}
