@@ -1,0 +1,9 @@
+{
+  "premeasurement_commit": "3720d14d3cbe00805637e4cbf2484191385454f9",
+  "planned_calls": 64,
+  "completed_calls": 64,
+  "scientific_hashes": 12,
+  "audit_passed": true,
+  "protocol_modified_after_measurement": false,
+  "repository": "https://github.com/Xenox-developer/compaction-constraint-lab"
+}

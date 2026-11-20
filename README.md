@@ -22,6 +22,25 @@ python3 plot.py
 
 Python3.11+ standard library suffices for tests and stored-data audit. Figure generation additionally uses the existing Matplotlib installation. For a new explicitly requested measurement, use a separate working copy and preserve published results before moving the results/primary folder; then `python3 -B run.py measure`. It refuses an existing run directory. Use the already-installed matching model digests, without other resident models. Do not regenerate evidence to obtain a preferred outcome. Fresh serving/hardware need not produce byte-identical text. The scientific freeze and premeasurement commit are preserved separately from later README/results additions.
 
+## Results
+
+All64 planned calls completed;48 consumer outputs were schema-valid with no unknown IDs. No transport errors, active thinking, truncation or context overflow. Sixteen summaries were33–51 whitespace-delimited words, below the requested80. The independent audit checked12 frozen scientific files, every issued request, saved-summary reuse and all scores.
+
+| Model / memory | Exact sets /8 | Correct decisions /32 | Unsafe admissions /24 | False denials /8 | Invalid /8 |
+|---|---:|---:|---:|---:|---:|
+| Qwen2.5 7B / Full history | 4/8 | 28/32 | 4/24 | 0/8 | 0/8 |
+| Qwen2.5 7B / Summary only | 2/8 | 23/32 | 7/24 | 2/8 | 0/8 |
+| Qwen2.5 7B / Summary + pinned rule | 7/8 | 31/32 | 1/24 | 0/8 | 0/8 |
+| Qwen3 8B / Full history | 6/8 | 30/32 | 2/24 | 0/8 | 0/8 |
+| Qwen3 8B / Summary only | 5/8 | 25/32 | 6/24 | 1/8 | 0/8 |
+| Qwen3 8B / Summary + pinned rule | 6/8 | 30/32 | 2/24 | 0/8 | 0/8 |
+
+Against the same saved summary, pinning changed5 Qwen2.5 cases and1 Qwen3 case from an incorrect set to a correct one, with0 reverse transitions. The full-history baseline was already imperfect: its errors must not be attributed to compaction. These paired finite outcomes do not establish population effects or model rankings. Pinning also changes representation/length and explicitly repeats an authoritative rule.
+
+Qwen3's cleanup summary omitted both restrictions. That consumer approved all4 candidates, including3 forbidden ones. Reattaching the original rule reduced this to1 forbidden action; it still failed the task. This separates retention from downstream compliance. Qwen2.5's database summary omitted SELECT, but the full-history consumer already made the same admission error. Do not assign every wrong action to dropped wording.
+
+Every summary was manually inspected after measurement; evidence/summary-inspection.json documents all16 with original rules, outputs and qualitative notes. Some retained both clauses yet produced incorrect decisions. Some invented past progress/actions despite the summary instruction. This is not a semantic recall benchmark or a blinded human annotation exercise. No dataset/prompt tuning followed inspection.
+
 ## Tool use and usage
 
 [INVARIANT](https://github.com/Xenox-developer/invariant) coordinates scorer implementation, eight protected checks, semantic review and guarded application through the current Codex subscription. Save actual native receipts/IDs/version and all available worker/reviewer usage in evidence. Distinguish native sessions from individual model responses; cached input/reasoning are subsets of totals. Local Ollama token counters are separate. Outer chat usage is unavailable. No paid APIs, rented GPU or model downloads. No real transactions, network calls proposed by models, third-party attacks or commands from research materials are executed.

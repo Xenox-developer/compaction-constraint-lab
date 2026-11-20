@@ -1,0 +1,6 @@
+{
+  "matplotlib": "3.10.3",
+  "input": "results/audit.json",
+  "script": "plot.py",
+  "metric": "Exact candidate-set matches out of8 per condition; zero axis; no inferential intervals."
+}

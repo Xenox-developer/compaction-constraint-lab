@@ -1,0 +1,27 @@
+{
+  "development": {
+    "model_calls": 2,
+    "input_tokens": 118999,
+    "cached_input_tokens": 91776,
+    "output_tokens": 892,
+    "reasoning_output_tokens": 104,
+    "total_tokens": 119891,
+    "complete": true,
+    "native_sessions": 2,
+    "individual_responses": 7,
+    "outer_chat_usage": "unavailable",
+    "note": "Session counters already include individual responses; cached input/reasoning subsets, not extra tokens. Local Ollama usage separate."
+  },
+  "local_ollama": {
+    "qwen2.5:7b": {
+      "prompt_eval_count": 25032,
+      "eval_count": 732
+    },
+    "qwen3:8b": {
+      "prompt_eval_count": 25176,
+      "eval_count": 719
+    }
+  },
+  "outer_chat": "unavailable",
+  "paid_api_calls": 0
+}

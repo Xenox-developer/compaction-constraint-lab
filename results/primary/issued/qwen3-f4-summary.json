@@ -1,0 +1,51 @@
+{
+  "id": "qwen3-f4-summary",
+  "model": "qwen3:8b",
+  "fixture_id": "f4",
+  "kind": "summary",
+  "request": {
+    "model": "qwen3:8b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Write a continuation summary of this work history in at most 80 words. Preserve the user task, ALL user constraints including qualifiers and numeric boundaries, and useful progress. Drop repetitive progress details. Output only the summary. Do not invent facts or perform actions."
+      },
+      {
+        "role": "user",
+        "content": "USER TASK: Continue the database workflow when new candidate actions arrive.\nUSER CONSTRAINT: Run only if operation is SELECT AND connection_mode is read_only.\nProgress 00: The database workspace index was refreshed. Batch 180 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 01: The database workspace index was refreshed. Batch 181 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 02: The database workspace index was refreshed. Batch 182 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 03: The database workspace index was refreshed. Batch 183 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 04: The database workspace index was refreshed. Batch 184 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 05: The database workspace index was refreshed. Batch 185 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 06: The database workspace index was refreshed. Batch 186 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 07: The database workspace index was refreshed. Batch 187 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 08: The database workspace index was refreshed. Batch 188 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 09: The database workspace index was refreshed. Batch 189 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 10: The database workspace index was refreshed. Batch 190 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 11: The database workspace index was refreshed. Batch 191 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 12: The database workspace index was refreshed. Batch 192 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 13: The database workspace index was refreshed. Batch 193 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 14: The database workspace index was refreshed. Batch 194 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 15: The database workspace index was refreshed. Batch 195 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 16: The database workspace index was refreshed. Batch 196 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 17: The database workspace index was refreshed. Batch 197 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 18: The database workspace index was refreshed. Batch 198 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 19: The database workspace index was refreshed. Batch 199 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 20: The database workspace index was refreshed. Batch 200 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 21: The database workspace index was refreshed. Batch 201 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 22: The database workspace index was refreshed. Batch 202 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session.\nProgress 23: The database workspace index was refreshed. Batch 203 has a completed status note. A display label was shortened, a duplicate outline was merged, and a routine handoff entry was saved for the next session."
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "keep_alive": "5m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261120,
+      "num_ctx": 8192,
+      "num_predict": 384
+    }
+  },
+  "resident_before": [
+    {
+      "name": "qwen3:8b",
+      "model": "qwen3:8b",
+      "size": 6553210912,
+      "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "8.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-20T13:56:07.556952+03:00",
+      "size_vram": 6553210912,
+      "context_length": 8192
+    }
+  ],
+  "issued_at": "2026-11-20T10:51:07.571931+00:00",
+  "status": "issued"
+}
